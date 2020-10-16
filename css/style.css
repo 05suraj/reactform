@@ -1,0 +1,196 @@
+
+
+
+
+
+
+
+
+
+
+/* form input  */
+
+.form_control {
+    margin-bottom: 16px;
+    /* padding-bottom: 8px; */
+    position: relative;
+}
+
+.form_control label {
+	display: inline-block;
+    margin-bottom: 3px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.form_control input {
+	border: 1px solid #bfbcbc;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+    width: 100%;
+    box-shadow: 2px 2px 3px -3px  #4c3e79;
+
+}
+
+textarea.form-control {
+    height: auto;
+    box-shadow: 2px 2px 3px -3px  #4c3e79;
+
+}
+span{
+  font-size: 12px;
+  color:gray
+}
+
+
+.heading{
+    color:#4c3e79;
+
+}
+
+.form_control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form_control.success input {
+	border-color: #2ecc71;
+}
+
+.form_control.error input {
+	border-color: #e74c3c;
+}
+
+.form_control i {
+	visibility: show;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form_control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form_control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+
+
+.form button {
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+
+
+
+.outlinebutton {
+    color: #1f0404;
+    /* background-color: #007bff; */
+    /* border-color: #007bff; */
+    border: 1px solid #4c3e79;
+    border-radius: 25px;
+    padding: 7px 36px;
+}
+
+.btn-primary{
+    background-color:#4c3e79 ;
+    border: 1px solid #4c3e79;
+    border-radius: 25px;
+    padding: 7px 36px;
+}
+
+@media(max-width:600px){
+   .img{
+  width: 100%;
+  height:390px;
+} 
+}
+
+
+
+@media(max-width:450px){
+   .img{
+  width: 100%;
+  height:40px;
+} 
+}
+
+@media(max-width:366px){
+   .img{
+  width: 100%;
+  height:400px;
+} 
+}
+
+
+nav{
+    width: 100%;
+    height: 75px;
+    background: #4c3e79;
+    padding: 10px;
+  
+   
+    
+}
+.logo h1{
+    color: white;
+}
+
+ul li{
+    display: inline;
+    line-height: 55px;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+ul li a{
+   color: white; 
+    padding:5px 15px;
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: capitalize;
+   
+}
+ul li a:hover{
+   color:green; 
+   border-bottom: none;
+   padding:5px 15px;
+   background: gray;
+   transition: .5s;
+   outline: none;
+
+}
+
+ul{
+    margin-right: 100px;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
